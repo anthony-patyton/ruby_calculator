@@ -1,2 +1,2 @@
-
 gem 'colorize'
+gem 'pry'
