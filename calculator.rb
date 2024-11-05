@@ -1,7 +1,18 @@
-require 'pry'
-require 'glimmer-dsl-libui'
+# frozen_string_literal: true
 
+# root = TkRoot.new { title "Calculator" }
+# TkLabel.new(root) do
+#    text 'This the calculator body'
+#    pack { padx 15 ; pady 15; side 'left' }
+# end
+# Tk.mainloop
 
-include Glimmer
+require 'tk'
 
-window("Calculator".upcase!, 312, 324).open
+# Calculator
+class Calculator
+end
+
+root = TkRoot.new
+# my_calculator = Calcultor(root)
+root.mainloop

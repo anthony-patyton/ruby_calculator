@@ -1,2 +1,3 @@
-gem 'pry'
-gem 'glimmer-dsl-libui', '~> 0.11.8'
+# frozen_string_literal: true
+
+gem 'tk', '~> 0.5.0'
